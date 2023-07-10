@@ -16,13 +16,13 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-    
+
 }
 
 /* nav related styles */
 nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     margin: 0 100px;
 }
@@ -47,61 +47,103 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 50px;
     display: flex;
     align-items: center;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 30px;
     color: #e69999;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 50px;
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 20px;
 }
- .section-title{
+
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
- }
+}
 
 /* main section styles */
- main{
+main {
     max-width: 1500px;
     margin: 0 auto;
- }
+}
+
+main section {
+    margin-top: 130px;
+}
+
 /* about section styles */
-.about{
+.about {
     padding: 50px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-i-do-description{
+
+/* skills related styles */
+
+#what-i-do-description {
     padding: 30px 100px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575
+}
+
+/* resume section style */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
 }
