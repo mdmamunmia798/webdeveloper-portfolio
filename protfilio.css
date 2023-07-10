@@ -178,3 +178,13 @@ footer{
     padding: 50px 100px;
     
 }
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #e69999;
+    border: 0;
+}
